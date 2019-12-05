@@ -22,6 +22,7 @@
  */
 int main(int argc, const char * argv[])
 {
+	//yes
 	  robotPrintAscii();
 	if(argc == 2) 
 	{
