@@ -1,3 +1,4 @@
+#include <ctype.h>
 /**
  * main.c
  * 
@@ -21,9 +22,12 @@
  */
 int main(int argc, const char * argv[])
 {
-  robotPrintAscii();
-  dalekPrintAscii();
-  robotPrintMessage();
-
+	  robotPrintAscii();
+	if(argc == 2) 
+	{
+			
+  		dalekPrintAscii();
+ 		robotPrintMessage();
+	}
   return 0;
 }
